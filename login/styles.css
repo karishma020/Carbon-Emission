@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url('/Untitled\ design.jpg') no-repeat center center/cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #eaf4e6;
+    padding: 20px;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  /* Align logo to left and title to right */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100px;  /* Adjust size */
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* Centering Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login & Register Box */
+.login-box, .register-box {
+    background: #e8f5e9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Input Fields */
+.input-group {
+    margin: 10px 0;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #2e7d32;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+    background: #2e7d32;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #1b5e20;
+}
+
+/* Links */
+a {
+    color: #2e7d32;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
