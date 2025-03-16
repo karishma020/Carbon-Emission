@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaf4e3;
+}
+
+.container {
+    display: flex;
+    width: 80%; /* Reduce the overall width */
+    height: 80vh; /* Reduce the height */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-section {
+    width: 35%; /* Reduce form width */
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: #2c5e1a;
+}
+
+h2 img {
+    width: 90px; /* Smaller logo */
+    height: auto;
+    margin-right: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+    color: #2c5e1a;
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #2c5e1a;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background: #2c5e1a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #3b7a2a;
+}
+
+.image-section {
+    flex: 1;
+    background: url('background.jpeg') center/cover no-repeat;
+}
